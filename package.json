@@ -1,0 +1,27 @@
+{
+  "name": "boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "supervisor -n error app.js",
+    "test": "echo yolo"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/godu/boilerplate.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/godu/boilerplate/issues"
+  },
+  "homepage": "https://github.com/godu/boilerplate",
+  "dependencies": {
+    "browserify-middleware": "^4.1.0",
+    "express": "^4.11.1",
+    "serve-static": "^1.8.1",
+    "supervisor": "^0.6.0"
+  }
+}
